@@ -47,7 +47,7 @@ footer{
 }
 
 .title-post-recents{
-    width: 46.5rem;
+    width: 47.5rem;
     height: 3.5rem;
     background-color: #02A28F;
     color: #FFFFFF;
@@ -149,9 +149,16 @@ footer{
     grid-area: 2 / 2;
 }
 
+@media(max-width:1024px){
+
+
+
+}
+
 @media (max-width: 768px) {
     header{
         text-align: center;
+        padding: 1.5rem 0 1.5rem 0;
     }
     .container{
         display: flex;
@@ -159,6 +166,7 @@ footer{
     }
     .banner{
         margin-left: 3rem;
+        width: auto;
     }
     .container-post{
         padding: 1rem;
@@ -167,6 +175,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
      } 
      .recents-posts {
         width: auto;
@@ -193,8 +202,5 @@ footer{
         
     }
 
-@media (max-width: 480px) {
-        
-        }
 
 
